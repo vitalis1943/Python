@@ -42,7 +42,6 @@ match x2:
                 print('восемнадцать')
             case 9:
                 print('девятнадцать')
-        print ('десять', end=' ')
     case 2:
         print ('двадцать', end=' ')
     case 3:
@@ -59,24 +58,26 @@ match x2:
         print('восемьдесят', end=' ')
     case 9:
         print('девяносто', end=' ')
-match x3:
-    case 1:
-        print ('один', end=' ')
-    case 2:
-        print ('два', end=' ')
-    case 3:
-        print('три', end=' ')
-    case 4:
-        print('четыре', end=' ')
-    case 5:
-        print('пять', end=' ')
-    case 6:
-        print('шесть', end=' ')
-    case 7:
-        print('семь', end=' ')
-    case 8:
-        print('восемь', end=' ')
-    case 9:
-        print('девять', end=' ')
+if x2 != 1:
+    match x3:
+        case 1:
+            print ('один', end=' ')
+        case 2:
+         print ('два', end=' ')
+        case 3:
+            print('три', end=' ')
+        case 4:
+            print('четыре', end=' ')
+        case 5:
+            print('пять', end=' ')
+        case 6:
+            print('шесть', end=' ')
+        case 7:
+            print('семь', end=' ')
+        case 8:
+            print('восемь', end=' ')
+        case 9:
+            print('девять', end=' ')
+
 
 
